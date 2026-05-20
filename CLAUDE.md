@@ -9,7 +9,8 @@ Exploratory analysis of all Python Enhancement Proposals (PEPs) — timeline, in
 ## Setup
 
 ```bash
-pip install -r requirements.txt
+uv sync
+source .venv/bin/activate
 jupyter notebook pep_analysis.ipynb
 ```
 

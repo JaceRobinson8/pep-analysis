@@ -1,0 +1,13 @@
+[project]
+name = "pep-analysis"
+version = "0.1.0"
+description = "Exploratory analysis of Python Enhancement Proposals (PEPs)"
+requires-python = ">=3.14"
+dependencies = [
+    "ipykernel>=7.2.0",
+    "jupyter>=1.1.1",
+    "nbformat>=5.10.4",
+    "pandas>=3.0.3",
+    "plotly>=6.7.0",
+    "requests>=2.34.2",
+]
